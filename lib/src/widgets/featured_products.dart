@@ -135,7 +135,7 @@ class Featured extends StatelessWidget {
                           ),
                           Icon(
                             Icons.star,
-                            color: Colors.grey[300],
+                            color: Colors.grey[400],
                             size: 16,
                           ),
                           SizedBox(
@@ -147,7 +147,7 @@ class Featured extends StatelessWidget {
                         padding: const EdgeInsets.only(right: 8.0),
                         child: customText(
                           text: "\$ ${productList[index].price}",
-                          weight: FontWeight.bold,
+                          weight: FontWeight.w700,
                           size: 17,
                         ),
                       ),
